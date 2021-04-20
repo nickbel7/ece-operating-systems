@@ -1,0 +1,18 @@
+**Άσκηση 1**
+Needed files :
+-ask2-fork.c (Υλοποίηση των fork)
+-proc-common.c (Υλοποιήσεις των απαραίτητων συναρτήσεων)
+-proc-common.h (Header file συναρτήσεων)
+
+show_pstree()
+-displays the process tree
+
+change_pname()
+-changes the name of the process
+
+**Άσκηση 2**
+Needed files :
+-tree.h (struct node implementation, get_tree_from_file declaration)
+-tree.c (print_tree implementation)
+-proc.tree (example input file)
+-tree-example.c (example with use of get_tree_from_file)
