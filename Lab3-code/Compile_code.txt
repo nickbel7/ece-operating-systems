@@ -1,0 +1,7 @@
+--create object file
+gcc -Wall -DSYNC_MUTEX -c -o ex1-mutex.o ex1-mutex.c  
+gcc -Wall -DSYNC_ATOMIX -c -o ex1-mutex.o ex1-mutex.c 
+
+--create executable
+gcc -Wall -o ex1-mutex ex1-mutex.o 
+ 
